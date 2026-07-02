@@ -1,28 +1,40 @@
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
-        stack<int> st;
-        heights.push_back(0);   // Sentinel
+        int n=heights.size();
+        vector<int> left(n,0);
+        vector<int> right(n,0);
+        stack<int> s;
 
-        int maxArea = 0;
-
-        for (int i = 0; i < heights.size(); i++) {
-            while (!st.empty() && heights[st.top()] > heights[i]) {
-                int height = heights[st.top()];
-                st.pop();
-
-                int width;
-                if (st.empty())
-                    width = i;
-                else
-                    width = i - st.top() - 1;
-
-                maxArea = max(maxArea, height * width);
+        //right smaller
+        for(int i=n-1;i>=0;i--){
+            while(s.size()>0 && heights[s.top()] >= heights[i]){
+                s.pop();
             }
-
-            st.push(i);
+            right[i] = s.empty() ? n : s.top();
+            s.push(i);
         }
 
-        return maxArea;
-    }
+        while(!s.empty()){
+            s.pop();
+        }
+
+        // left smaller
+        for(int i=0;i<n;i++){
+            while(s.size()>0 && heights[s.top()] >= heights[i]){
+                s.pop();
+            }
+            left[i] = s.empty() ? -1 : s.top();
+            s.push(i);
+        }
+
+        int ans=0;
+        for(int i=0;i<n;i++){
+            int width=right[i]-left[i]-1;
+            int currArea=heights[i]*width;
+
+            ans=max(ans,currArea);
+        }
+        return ans;
+    } 
 };
