@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/priyanshu847700/leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/priyanshu847700/leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [0206-reverse-linked-list](https://github.com/priyanshu847700/leetcode/tree/master/0206-reverse-linked-list) |
+| [0509-fibonacci-number](https://github.com/priyanshu847700/leetcode/tree/master/0509-fibonacci-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -95,4 +96,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/priyanshu847700/leetcode/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
+## Math
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/priyanshu847700/leetcode/tree/master/0509-fibonacci-number) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/priyanshu847700/leetcode/tree/master/0509-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/priyanshu847700/leetcode/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
