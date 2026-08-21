@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/priyanshu847700/leetcode/tree/master/0503-next-greater-element-ii) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/priyanshu847700/leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/priyanshu847700/leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
+| [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/priyanshu847700/leetcode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/priyanshu847700/leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Hash Table
 |  |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/priyanshu847700/leetcode/tree/master/0134-gas-station) |
+| [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/priyanshu847700/leetcode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/priyanshu847700/leetcode/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/priyanshu847700/leetcode/tree/master/0509-fibonacci-number) |
 | [1137-n-th-tribonacci-number](https://github.com/priyanshu847700/leetcode/tree/master/1137-n-th-tribonacci-number) |
+| [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/priyanshu847700/leetcode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -195,4 +198,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/priyanshu847700/leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
+## Sorting
+|  |
+| ------- |
+| [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/priyanshu847700/leetcode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
+## Game Theory
+|  |
+| ------- |
+| [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/priyanshu847700/leetcode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
 <!---LeetCode Topics End-->
