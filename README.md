@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/priyanshu847700/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0496-next-greater-element-i](https://github.com/priyanshu847700/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/priyanshu847700/leetcode/tree/master/0503-next-greater-element-ii) |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/priyanshu847700/leetcode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/priyanshu847700/leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/priyanshu847700/leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/priyanshu847700/leetcode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/priyanshu847700/leetcode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/priyanshu847700/leetcode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
 ## Game Theory
 |  |
@@ -212,4 +214,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/priyanshu847700/leetcode/tree/master/0238-product-of-array-except-self) |
+## Union-Find
+|  |
+| ------- |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/priyanshu847700/leetcode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 <!---LeetCode Topics End-->
