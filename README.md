@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/0022-generate-parentheses) |
 | [0257-binary-tree-paths](https://github.com/priyanshu847700/leetcode/tree/master/0257-binary-tree-paths) |
 | [0316-remove-duplicate-letters](https://github.com/priyanshu847700/leetcode/tree/master/0316-remove-duplicate-letters) |
 | [0344-reverse-string](https://github.com/priyanshu847700/leetcode/tree/master/0344-reverse-string) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/priyanshu847700/leetcode/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/priyanshu847700/leetcode/tree/master/0509-fibonacci-number) |
 | [1137-n-th-tribonacci-number](https://github.com/priyanshu847700/leetcode/tree/master/1137-n-th-tribonacci-number) |
@@ -219,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/priyanshu847700/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/priyanshu847700/leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/priyanshu847700/leetcode/tree/master/0078-subsets) |
@@ -267,4 +270,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/priyanshu847700/leetcode/tree/master/0051-n-queens) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
