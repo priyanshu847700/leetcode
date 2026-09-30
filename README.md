@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/priyanshu847700/leetcode/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/priyanshu847700/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0037-sudoku-solver](https://github.com/priyanshu847700/leetcode/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/priyanshu847700/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/priyanshu847700/leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/priyanshu847700/leetcode/tree/master/0078-subsets) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/priyanshu847700/leetcode/tree/master/0037-sudoku-solver) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/priyanshu847700/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0138-copy-list-with-random-pointer](https://github.com/priyanshu847700/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/priyanshu847700/leetcode/tree/master/0141-linked-list-cycle) |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/0022-generate-parentheses) |
+| [0037-sudoku-solver](https://github.com/priyanshu847700/leetcode/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/priyanshu847700/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/priyanshu847700/leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/priyanshu847700/leetcode/tree/master/0078-subsets) |
@@ -288,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Algorithm X
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/priyanshu847700/leetcode/tree/master/0037-sudoku-solver) |
 | [0051-n-queens](https://github.com/priyanshu847700/leetcode/tree/master/0051-n-queens) |
 ## Bracket Sequences
 |  |
@@ -299,5 +303,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/priyanshu847700/leetcode/tree/master/0037-sudoku-solver) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/priyanshu847700/leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+## Dancing Links
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/priyanshu847700/leetcode/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
