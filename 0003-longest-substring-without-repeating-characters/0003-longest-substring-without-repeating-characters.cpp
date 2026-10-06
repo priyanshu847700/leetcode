@@ -1,53 +1,24 @@
-// class Solution {
-// public:
-//     int lengthOfLongestSubstring(string s) {
-//         int i=0;
-//         int j=0;
-//         int count=0;
-//         int maxcount=INT_MIN;
-
-//         unordered_set<char> s1;
-
-//         while(j<s.size()){
-//             if(s1.find(s[j]) == s1.end()){
-//                 count++;
-//                 s1.insert(s[j]);
-//                 maxcount=max(maxcount,count);
-//             }
-//             else{
-//                 s1.erase(s[i]);
-//                 i++;
-//                 count--;
-//             }
-//         }
-//         return maxcount;
-//     }
-// };
-
-
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        int i = 0;
-        int j = 0;
-        int count = 0;
-        int maxcount = 0;
 
-        unordered_set<char> s1;
+        unordered_map<char,int> mp;
+        int maxcount=0;
+        int l=0,r=0;
 
-        while (j < s.size()) {
-
-            if (s1.find(s[j]) == s1.end()) {
-                count++;
-                s1.insert(s[j]);
-                maxcount = max(maxcount, count);
-                j++;
+        while(r<s.size()){
+            if( mp.find(s[r]) == mp.end() ){
+                mp[s[r]]=r;
+                
             }
-            else {
-                s1.erase(s[i]);
-                i++;
-                count--;
+            else{
+                l=max(l,mp[s[r]]+1);
+                mp[s[r]]=r;
+                
             }
+            maxcount=max(maxcount,r-l+1);
+            r++;
+
         }
 
         return maxcount;
