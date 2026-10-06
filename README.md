@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/priyanshu847700/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0678-valid-parenthesis-string](https://github.com/priyanshu847700/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0856-score-of-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/priyanshu847700/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/priyanshu847700/leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/priyanshu847700/leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/priyanshu847700/leetcode/tree/master/0443-string-compression) |
 | [0678-valid-parenthesis-string](https://github.com/priyanshu847700/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0856-score-of-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/priyanshu847700/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/priyanshu847700/leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/priyanshu847700/leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
@@ -167,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/priyanshu847700/leetcode/tree/master/0134-gas-station) |
 | [0316-remove-duplicate-letters](https://github.com/priyanshu847700/leetcode/tree/master/0316-remove-duplicate-letters) |
 | [0678-valid-parenthesis-string](https://github.com/priyanshu847700/leetcode/tree/master/0678-valid-parenthesis-string) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/priyanshu847700/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/priyanshu847700/leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/priyanshu847700/leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/priyanshu847700/leetcode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
@@ -321,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0678-valid-parenthesis-string](https://github.com/priyanshu847700/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0856-score-of-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/priyanshu847700/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/priyanshu847700/leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
