@@ -20,14 +20,8 @@ public:
             return;
         }
 
-        // if(s[idx] != '(' && s[idx] != ')'){
-        //     str.push_back(s[idx]);
-        //     solve(s,str,st,count,idx+1,maxlen);
-        //     str.pop_back();
-        //     return;
-        // }
-
         str.push_back(s[idx]);
+        
         if(s[idx]=='(') {
             solve(s,str,st,count+1,idx+1,maxlen);
         }
