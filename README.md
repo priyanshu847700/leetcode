@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/priyanshu847700/leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/priyanshu847700/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/priyanshu847700/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0036-valid-sudoku](https://github.com/priyanshu847700/leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/priyanshu847700/leetcode/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/priyanshu847700/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/priyanshu847700/leetcode/tree/master/0051-n-queens) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/priyanshu847700/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0036-valid-sudoku](https://github.com/priyanshu847700/leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/priyanshu847700/leetcode/tree/master/0037-sudoku-solver) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/priyanshu847700/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0138-copy-list-with-random-pointer](https://github.com/priyanshu847700/leetcode/tree/master/0138-copy-list-with-random-pointer) |
@@ -350,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/priyanshu847700/leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/priyanshu847700/leetcode/tree/master/0037-sudoku-solver) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/priyanshu847700/leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 ## Dancing Links
