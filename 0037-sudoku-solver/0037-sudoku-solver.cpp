@@ -1,38 +1,48 @@
 class Solution {
 public:
-    bool isSafe(vector<vector<char>>& board, int row, int col, char ch) {
-        for (int i = 0; i < 9; i++) {
-            // Check row and column
-            if (board[row][i] == ch) return false;
-            if (board[i][col] == ch) return false;
-
-            // Check 3x3 subgrid
-            int subRow = 3 * (row / 3) + i / 3;
-            int subCol = 3 * (col / 3) + i % 3;
-            if (board[subRow][subCol] == ch) return false;
+    bool isvalid(vector<vector<char>>& board,int row,int col,char dig){
+        for(int i=0;i<9;i++){
+            if(board[row][i]==dig && (i!=col) ){
+                return false;
+            }
+            if(board[i][col]==dig && (i!=row) ){
+                return false;
+            }
         }
-        return true;
-    }
 
-    bool solve(vector<vector<char>>& board) {
-        for (int row = 0; row < 9; row++) {
-            for (int col = 0; col < 9; col++) {
-                if (board[row][col] == '.') {
-                    for (char ch = '1'; ch <= '9'; ch++) {
-                        if (isSafe(board, row, col, ch)) {
-                            board[row][col] = ch;
-                            if (solve(board)) return true;
-                            board[row][col] = '.'; // backtrack
-                        }
-                    }
-                    return false; // no valid number found
+        int strow=(row/3)*3;
+        int stcol=(col/3)*3;
+
+        for(int i=strow;i<=strow+2;i++){
+            for(int j=stcol;j<=stcol+2;j++){
+                if( ( i!=row || j!=col ) && board[i][j] == dig){
+                    return false;
                 }
             }
         }
-        return true; // solved
+        return true;
     }
+    bool solveSudoku(vector<vector<char>>& board) {
 
-    void solveSudoku(vector<vector<char>>& board) {
-        solve(board);
+        for(int i=0;i<9;i++){
+            for(int j=0;j<9;j++){
+
+                if(board[i][j] == '.'){
+
+                    for(char dig='1';dig<='9';dig++){
+                        if(isvalid(board,i,j,dig)){
+                            board[i][j]=dig;
+                            if(solveSudoku(board) == true){
+                                return true; 
+                            }
+                            board[i][j]='.';
+                        }
+                    }
+                    
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 };
