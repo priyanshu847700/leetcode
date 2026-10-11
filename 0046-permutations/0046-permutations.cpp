@@ -1,20 +1,30 @@
 class Solution {
 public:
-    void getallpermutation(vector<int>& nums,vector<vector<int>> &ans,int idx){
-        if(idx==nums.size()){
-            ans.push_back(nums);
+    void solve(vector<int>& nums,vector<vector<int>> &ans,unordered_set<int> &s,vector<int> &temp){
+
+        if(temp.size() == nums.size()){
+            ans.push_back({temp});
             return;
         }
 
-        for(int i=idx;i<nums.size();i++){
-            swap(nums[idx],nums[i]);
-            getallpermutation(nums,ans,idx+1);
-            swap(nums[idx],nums[i]);
+        for(int i=0;i<nums.size();i++){
+            if( s.find(nums[i]) == s.end() ){
+                temp.push_back(nums[i]);
+                s.insert(nums[i]);
+                solve(nums,ans,s,temp);
+
+                temp.pop_back();
+                s.erase(nums[i]);
+            }
         }
     }
+
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> ans;
-        getallpermutation(nums,ans,0);
+        vector<int> temp;
+        unordered_set<int> s;
+
+        solve(nums,ans,s,temp);
 
         return ans;
     }
