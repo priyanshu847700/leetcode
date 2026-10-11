@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/priyanshu847700/leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/priyanshu847700/leetcode/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/priyanshu847700/leetcode/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/priyanshu847700/leetcode/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/priyanshu847700/leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/priyanshu847700/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/priyanshu847700/leetcode/tree/master/0090-subsets-ii) |
@@ -281,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/priyanshu847700/leetcode/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/priyanshu847700/leetcode/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/priyanshu847700/leetcode/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/priyanshu847700/leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/priyanshu847700/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/priyanshu847700/leetcode/tree/master/0090-subsets-ii) |
@@ -312,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/priyanshu847700/leetcode/tree/master/0015-3sum) |
+| [0047-permutations-ii](https://github.com/priyanshu847700/leetcode/tree/master/0047-permutations-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/priyanshu847700/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/priyanshu847700/leetcode/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/priyanshu847700/leetcode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
