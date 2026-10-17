@@ -7,15 +7,13 @@ public:
 
         while(j<nums.size()){
 
-            while(abs(i-j) > k){
+            if(abs(i-j) > k){
                 s.erase(nums[i]);
                 i++;
             }
 
-            if(j-i <= k){
-                if(s.find(nums[j]) != s.end()){
-                    return true;
-                }
+            if(s.find(nums[j]) != s.end()){
+                return true;
             }
 
             s.insert(nums[j]);
