@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/priyanshu847700/leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/priyanshu847700/leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3483-unique-3-digit-even-numbers](https://github.com/priyanshu847700/leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/priyanshu847700/leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/priyanshu847700/leetcode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/priyanshu847700/leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/priyanshu847700/leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/priyanshu847700/leetcode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/priyanshu847700/leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3483-unique-3-digit-even-numbers](https://github.com/priyanshu847700/leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/priyanshu847700/leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 ## Stack
 |  |
 | ------- |
@@ -350,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/priyanshu847700/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/priyanshu847700/leetcode/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/priyanshu847700/leetcode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/priyanshu847700/leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/priyanshu847700/leetcode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/priyanshu847700/leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Game Theory
