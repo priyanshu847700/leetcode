@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/priyanshu847700/leetcode/tree/master/0496-next-greater-element-i) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/priyanshu847700/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/priyanshu847700/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/priyanshu847700/leetcode/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/priyanshu847700/leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/priyanshu847700/leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/priyanshu847700/leetcode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
@@ -170,11 +171,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/priyanshu847700/leetcode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/priyanshu847700/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/priyanshu847700/leetcode/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [3498-reverse-degree-of-a-string](https://github.com/priyanshu847700/leetcode/tree/master/3498-reverse-degree-of-a-string) |
 ## Counting
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/priyanshu847700/leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/priyanshu847700/leetcode/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 ## Sliding Window
 |  |
 | ------- |
@@ -184,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/priyanshu847700/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [1004-max-consecutive-ones-iii](https://github.com/priyanshu847700/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/priyanshu847700/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/priyanshu847700/leetcode/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
