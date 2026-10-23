@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/priyanshu847700/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/priyanshu847700/leetcode/tree/master/0503-next-greater-element-ii) |
 | [1004-max-consecutive-ones-iii](https://github.com/priyanshu847700/leetcode/tree/master/1004-max-consecutive-ones-iii) |
+| [1110-delete-nodes-and-return-forest](https://github.com/priyanshu847700/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/priyanshu847700/leetcode/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/priyanshu847700/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/priyanshu847700/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/priyanshu847700/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/priyanshu847700/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/priyanshu847700/leetcode/tree/master/0496-next-greater-element-i) |
+| [1110-delete-nodes-and-return-forest](https://github.com/priyanshu847700/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/priyanshu847700/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/priyanshu847700/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/priyanshu847700/leetcode/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/priyanshu847700/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [1110-delete-nodes-and-return-forest](https://github.com/priyanshu847700/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -291,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/priyanshu847700/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0958-check-completeness-of-a-binary-tree) |
+| [1110-delete-nodes-and-return-forest](https://github.com/priyanshu847700/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -314,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/priyanshu847700/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0958-check-completeness-of-a-binary-tree) |
+| [1110-delete-nodes-and-return-forest](https://github.com/priyanshu847700/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 ## String Matching
 |  |
 | ------- |
