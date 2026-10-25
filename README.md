@@ -295,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/priyanshu847700/leetcode/tree/master/0113-path-sum-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/priyanshu847700/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0199-binary-tree-right-side-view](https://github.com/priyanshu847700/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/priyanshu847700/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/priyanshu847700/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/priyanshu847700/leetcode/tree/master/0257-binary-tree-paths) |
@@ -325,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/priyanshu847700/leetcode/tree/master/0113-path-sum-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/priyanshu847700/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0199-binary-tree-right-side-view](https://github.com/priyanshu847700/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/priyanshu847700/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/priyanshu847700/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/priyanshu847700/leetcode/tree/master/0257-binary-tree-paths) |
@@ -369,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/priyanshu847700/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/priyanshu847700/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0209-minimum-size-subarray-sum](https://github.com/priyanshu847700/leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0222-count-complete-tree-nodes](https://github.com/priyanshu847700/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/priyanshu847700/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0349-intersection-of-two-arrays](https://github.com/priyanshu847700/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [1004-max-consecutive-ones-iii](https://github.com/priyanshu847700/leetcode/tree/master/1004-max-consecutive-ones-iii) |
@@ -380,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/priyanshu847700/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/priyanshu847700/leetcode/tree/master/0090-subsets-ii) |
+| [0222-count-complete-tree-nodes](https://github.com/priyanshu847700/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/priyanshu847700/leetcode/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/priyanshu847700/leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/priyanshu847700/leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
