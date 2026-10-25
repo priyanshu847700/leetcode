@@ -11,39 +11,47 @@
  */
 class Solution {
 public:
-    TreeNode* add(TreeNode* root, int val, int depth, int currdepth){
-        if(root == NULL){
-            return NULL;
+    TreeNode* addOneRow(TreeNode* root, int val, int depth) {
+        if(depth == 1) {
+            TreeNode* newRoot = new TreeNode(val);
+            newRoot->left = root;
+            return newRoot;
         }
 
-        if(currdepth == depth-1){
-            TreeNode *leftsubtree = root->left;
-            TreeNode *rightsubtree = root->right;
+        int level=1;
 
-            root->left =  new TreeNode(val);
-            root->right =  new TreeNode(val);
+        queue<TreeNode*> q;
+        q.push(root);
 
-            root->left->left = leftsubtree;
-            root->right->right = rightsubtree;
+        while(!q.empty()){
+            int n=q.size();
 
+            while(n--){
+                TreeNode* curr=q.front();
+                q.pop();
+
+
+                if(level == depth-1){
+                    TreeNode* leftsubtree=curr->left;
+                    TreeNode* rightsubtree=curr->right;
+
+                    curr->left= new TreeNode(val);
+                    curr->right= new TreeNode(val);
+
+                    curr->left->left=leftsubtree;
+                    curr->right->right=rightsubtree;
+                }
+                else{
+                    if(curr->left != NULL) q.push(curr->left);
+                    if(curr->right != NULL) q.push(curr->right);
+                }
+            }
+
+            if(level == depth - 1) break; 
+            level++;
+            
         }
-
-        root->left=add(root->left,val,depth,currdepth+1);
-        root->right=add(root->right,val,depth,currdepth+1);
 
         return root;
-    }
-    TreeNode* addOneRow(TreeNode* root, int val, int depth) {
-        
-        if(depth == 1){
-            TreeNode* newroot= new TreeNode(val);
-            newroot->left=root;
-
-            return newroot;  
-        }
-
-        int currdepth=1;
-
-        return add(root,val,depth,currdepth);
     }
 };
