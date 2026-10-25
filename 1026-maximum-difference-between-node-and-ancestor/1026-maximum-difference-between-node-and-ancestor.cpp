@@ -11,35 +11,26 @@
  */
 class Solution {
 public:
-    void calculate_diff(TreeNode* root,TreeNode* child,int &diff){
-        if(child == NULL){
-            return;
-        }
-
-        diff= max(diff,abs(root->val - child->val));
-
-        calculate_diff(root,child->left,diff);
-        calculate_diff(root,child->right,diff);
-    }
-    void max_diff(TreeNode* root,int &diff){
-
+    int find_max_diff(TreeNode* root,int minV,int maxV){
         if(root == NULL){
-            return;
+            return abs(minV - maxV);
         }
 
-        calculate_diff(root,root->left,diff);
-        calculate_diff(root,root->right,diff);
+        minV=min(minV,root->val);
+        maxV=max(maxV,root->val);
 
-        max_diff(root->left,diff);
-        max_diff(root->right,diff);
+        int l = find_max_diff(root->left,minV, maxV);
+        int r = find_max_diff(root->right,minV, maxV);
 
+        return max(l,r);
     }
     
     int maxAncestorDiff(TreeNode* root) {
-        int diff=0;
+        if(root == NULL) return 0;
 
-        max_diff(root,diff);
+        int minV=INT_MAX;
+        int maxV=INT_MIN;
 
-        return diff;
+        return find_max_diff(root,minV,maxV);
     }
 };
