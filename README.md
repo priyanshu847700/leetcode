@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/priyanshu847700/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/priyanshu847700/leetcode/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/priyanshu847700/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/priyanshu847700/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/priyanshu847700/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0134-gas-station](https://github.com/priyanshu847700/leetcode/tree/master/0134-gas-station) |
 | [0209-minimum-size-subarray-sum](https://github.com/priyanshu847700/leetcode/tree/master/0209-minimum-size-subarray-sum) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/priyanshu847700/leetcode/tree/master/0037-sudoku-solver) |
 | [0076-minimum-window-substring](https://github.com/priyanshu847700/leetcode/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/priyanshu847700/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/priyanshu847700/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0138-copy-list-with-random-pointer](https://github.com/priyanshu847700/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/priyanshu847700/leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/priyanshu847700/leetcode/tree/master/0142-linked-list-cycle-ii) |
@@ -302,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/priyanshu847700/leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/priyanshu847700/leetcode/tree/master/0101-symmetric-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/priyanshu847700/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/priyanshu847700/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/priyanshu847700/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0112-path-sum](https://github.com/priyanshu847700/leetcode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/priyanshu847700/leetcode/tree/master/0113-path-sum-ii) |
@@ -342,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/priyanshu847700/leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/priyanshu847700/leetcode/tree/master/0101-symmetric-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/priyanshu847700/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/priyanshu847700/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/priyanshu847700/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0112-path-sum](https://github.com/priyanshu847700/leetcode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/priyanshu847700/leetcode/tree/master/0113-path-sum-ii) |
@@ -377,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/priyanshu847700/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/priyanshu847700/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/priyanshu847700/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 ## Backtracking
 |  |
