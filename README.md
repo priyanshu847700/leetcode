@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/priyanshu847700/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/priyanshu847700/leetcode/tree/master/0496-next-greater-element-i) |
 | [0652-find-duplicate-subtrees](https://github.com/priyanshu847700/leetcode/tree/master/0652-find-duplicate-subtrees) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [1110-delete-nodes-and-return-forest](https://github.com/priyanshu847700/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/priyanshu847700/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/priyanshu847700/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
@@ -259,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/priyanshu847700/leetcode/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0814-binary-tree-pruning](https://github.com/priyanshu847700/leetcode/tree/master/0814-binary-tree-pruning) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0872-leaf-similar-trees](https://github.com/priyanshu847700/leetcode/tree/master/0872-leaf-similar-trees) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/priyanshu847700/leetcode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1110-delete-nodes-and-return-forest](https://github.com/priyanshu847700/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
@@ -326,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/priyanshu847700/leetcode/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0814-binary-tree-pruning](https://github.com/priyanshu847700/leetcode/tree/master/0814-binary-tree-pruning) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0872-leaf-similar-trees](https://github.com/priyanshu847700/leetcode/tree/master/0872-leaf-similar-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/priyanshu847700/leetcode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
@@ -343,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0623-add-one-row-to-tree](https://github.com/priyanshu847700/leetcode/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/priyanshu847700/leetcode/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 ## Binary Tree
@@ -371,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/priyanshu847700/leetcode/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0814-binary-tree-pruning](https://github.com/priyanshu847700/leetcode/tree/master/0814-binary-tree-pruning) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0872-leaf-similar-trees](https://github.com/priyanshu847700/leetcode/tree/master/0872-leaf-similar-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/priyanshu847700/leetcode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
