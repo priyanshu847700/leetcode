@@ -12,19 +12,18 @@
 class Solution {
 public:
     TreeNode* delete_node(TreeNode* root){
-        if(root==NULL){
+        if(root == NULL){
             return NULL;
         }
 
         root->left=delete_node(root->left);
         root->right=delete_node(root->right);
 
-        if(root->left == NULL && root->right == NULL && root->val == 0){
+        if(root->left == NULL && root->right == NULL && root->val ==0){
             return NULL;
         }
-        
         return root;
-    } 
+    }
     TreeNode* pruneTree(TreeNode* root) {
         return delete_node(root);
     }
