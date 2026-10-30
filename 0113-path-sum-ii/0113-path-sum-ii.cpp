@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    void get_pathsum(TreeNode* root,int targetSum,int sum,vector<int> &temp,vector<vector<int>> &res){
+    void get_pathsum(TreeNode* root,int targetSum,int sum,vector<int> temp,vector<vector<int>> &res){
         if(root == NULL){
             return;
         }
@@ -28,7 +28,6 @@ public:
         get_pathsum(root->left,targetSum,sum,temp,res);
         get_pathsum(root->right,targetSum,sum,temp,res);
 
-        temp.pop_back();
 
     }
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
