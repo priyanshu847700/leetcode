@@ -11,34 +11,32 @@
  */
 class Solution {
 public:
-    void root_to_leaf_sum(TreeNode* root, int target,int sum,vector<int> temp,vector<vector<int>> &res){
+    void get_pathsum(TreeNode* root,int targetSum,int sum,vector<int> &temp,vector<vector<int>> &res){
         if(root == NULL){
             return;
         }
 
+        sum+=root->val;
         temp.push_back(root->val);
-        sum += root->val;
 
         if(root->left == NULL && root->right == NULL){
-            if( sum == target){
-                res.push_back({temp});
+            if(targetSum == sum){
+                res.push_back(temp);
             }
         }
-       
-        root_to_leaf_sum(root->left,target,sum,temp,res);
-        root_to_leaf_sum(root->right,target,sum,temp,res);
+
+        get_pathsum(root->left,targetSum,sum,temp,res);
+        get_pathsum(root->right,targetSum,sum,temp,res);
 
         temp.pop_back();
 
     }
-    vector<vector<int>> pathSum(TreeNode* root, int target) {
-        
-        vector<vector<int>> res;
-        vector<int> temp;
-
+    vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
         int sum=0;
+        vector<int> temp;
+        vector<vector<int>> res;
 
-        root_to_leaf_sum(root,target,sum,temp,res);
+        get_pathsum(root,targetSum,sum,temp,res);
 
         return res;
     }
