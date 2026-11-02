@@ -270,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1361-validate-binary-tree-nodes](https://github.com/priyanshu847700/leetcode/tree/master/1361-validate-binary-tree-nodes) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -299,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/priyanshu847700/leetcode/tree/master/0509-fibonacci-number) |
 | [0678-valid-parenthesis-string](https://github.com/priyanshu847700/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [1137-n-th-tribonacci-number](https://github.com/priyanshu847700/leetcode/tree/master/1137-n-th-tribonacci-number) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/priyanshu847700/leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 ## Memoization
 |  |
@@ -341,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1361-validate-binary-tree-nodes](https://github.com/priyanshu847700/leetcode/tree/master/1361-validate-binary-tree-nodes) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -392,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1361-validate-binary-tree-nodes](https://github.com/priyanshu847700/leetcode/tree/master/1361-validate-binary-tree-nodes) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 ## String Matching
 |  |
 | ------- |
@@ -538,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/priyanshu847700/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 ## Graph Theory
 |  |
 | ------- |
