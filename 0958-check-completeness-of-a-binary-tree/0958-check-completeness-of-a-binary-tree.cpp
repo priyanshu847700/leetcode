@@ -19,15 +19,18 @@ public:
 
         return leftsubtree+rightsubtree+1;
     }
-    bool dfs(TreeNode* root,int i,int total_nodes){
-        if(root == NULL) return true;
+    
+    void dfs(TreeNode* root,int i,int total_nodes,bool &ans){
+        if(root == NULL) return;
 
-        if( i > total_nodes) return false;
+        if( i > total_nodes){
+            ans=false;
+            return;
+        }
 
-        if (dfs(root->left, 2 * i, total_nodes) == false) return false;
-        if (dfs(root->right, 2 * i + 1, total_nodes) == false) return false;
+        dfs(root->left, 2 * i, total_nodes,ans);
+        dfs(root->right, 2 * i + 1, total_nodes,ans);
 
-        return true;
     }
     
     bool isCompleteTree(TreeNode* root) {
@@ -35,7 +38,9 @@ public:
         int total_nodes=no_of_nodes(root);
 
         int i=1;
-        return dfs(root,i,total_nodes);
-        
+        bool ans=true;
+        dfs(root,i,total_nodes,ans);
+
+        return ans; 
     }
 };
