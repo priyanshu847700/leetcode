@@ -20,12 +20,12 @@ public:
             return false;
         }
 
-        if(l->val == r->val && check_if_symmetric(l->right,r->left) && check_if_symmetric(l->left,r->right)){
-            return true;
+        if(l->val != r->val){
+            return false;
         }
 
-        return false;
-
+        return check_if_symmetric(l->right,r->left) && check_if_symmetric(l->left,r->right);
+        
     }
     bool isSymmetric(TreeNode* root) {
         if(root == NULL){
