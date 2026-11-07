@@ -9,14 +9,14 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-
 class Solution {
 public:
     int get_left_nodes(TreeNode* root){
-        int count=0;
+
+        int count=1;
         TreeNode* temp=root;
 
-        while(temp != NULL){
+        while(temp->left != NULL){
             count++;
             temp=temp->left;
         }
@@ -24,10 +24,11 @@ public:
     }
 
     int get_right_nodes(TreeNode* root){
-        int count=0;
+
+        int count=1;
         TreeNode* temp=root;
 
-        while(temp != NULL){
+        while(temp->right != NULL){
             count++;
             temp=temp->right;
         }
@@ -35,17 +36,18 @@ public:
     }
 
     int countNodes(TreeNode* root) {
+
         if(root == NULL){
             return 0;
         }
 
-        int left=get_left_nodes(root);
-        int right=get_right_nodes(root);
+        int left =get_left_nodes(root);
+        int right =get_right_nodes(root);
 
         if(left == right){
-            return pow(2,left) - 1;
+            return pow(2,left)-1;
         }
 
-        return countNodes(root->left) + countNodes(root->right) + 1;
+        return countNodes(root->left) + countNodes(root->right) + 1;    // last one is for root
     }
 };
