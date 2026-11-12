@@ -11,12 +11,13 @@
  */
 class Solution {
 public:
-    bool check_if_symmetric(TreeNode* l,TreeNode* r){
+    bool is_valid_symmetric(TreeNode* l,TreeNode* r){
+
         if(l == NULL && r == NULL){
             return true;
         }
-
-        if(l == NULL || r == NULL){ // left != NULL && right == NULL or vise versa!
+        
+        if(l == NULL || r == NULL){
             return false;
         }
 
@@ -24,14 +25,13 @@ public:
             return false;
         }
 
-        return check_if_symmetric(l->right,r->left) && check_if_symmetric(l->left,r->right);
-        
+        return is_valid_symmetric(l->right,r->left) && is_valid_symmetric(l->left,r->right);
     }
     bool isSymmetric(TreeNode* root) {
         if(root == NULL){
             return true;
         }
 
-        return check_if_symmetric(root->left,root->right);
+        return is_valid_symmetric(root->left,root->right);
     }
 };
