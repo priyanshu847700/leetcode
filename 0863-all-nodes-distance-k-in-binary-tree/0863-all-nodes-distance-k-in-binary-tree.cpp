@@ -1,12 +1,3 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
 class Solution {
 public:
     void make_tree_unidirectional(TreeNode* root,unordered_map<TreeNode*, TreeNode*>& parent) {
@@ -27,8 +18,8 @@ public:
         queue<TreeNode*> q;
         q.push(target);
 
-        unordered_set<TreeNode*> isvisited;
-        isvisited.insert(target);
+        unordered_set<int> isvisited;
+        isvisited.insert(target->val);
 
         int level = 0;
 
@@ -47,19 +38,19 @@ public:
                 TreeNode* node = q.front();
                 q.pop();
 
-                if (node->left != NULL && isvisited.count(node->left) == 0) {
+                if (node->left != NULL && isvisited.count(node->left->val) == 0) {
                     q.push(node->left);
-                    isvisited.insert(node->left);
+                    isvisited.insert(node->left->val);
                 }
 
-                if (node->right != NULL && isvisited.count(node->right) == 0) {
+                if (node->right != NULL && isvisited.count(node->right->val) == 0) {
                     q.push(node->right);
-                    isvisited.insert(node->right);
+                    isvisited.insert(node->right->val);
                 }
 
-                if (parent.count(node) && isvisited.count(parent[node]) == 0) {
+                if ( parent[node]  && isvisited.count(parent[node]->val) == 0) {
                     q.push(parent[node]);
-                    isvisited.insert(parent[node]);
+                    isvisited.insert(parent[node]->val);
                 }
             }
 
