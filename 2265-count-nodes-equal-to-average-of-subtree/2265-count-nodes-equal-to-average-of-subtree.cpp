@@ -10,49 +10,31 @@
  * };
  */
 class Solution {
-public:
-    int get_total_nodes(TreeNode* root){
+public: 
+    pair<int,int> solve(TreeNode* root,int &res){
         if(root == NULL){
-            return 0;
+            return {0,0};
         }
 
-        int left = get_total_nodes(root->left);
-        int right = get_total_nodes(root->right);
+        auto p1=solve(root->left,res);
+        auto p2=solve(root->right,res);
 
-        return 1+left+right;
-    }
+        int total_sum = p1.first + p2.first + root->val;
+        int total_count = p1.second + p2.second + 1;
 
-    int get_subtree_sum(TreeNode* root){
-        if(root == NULL){
-            return 0;
-        }
-
-        int left = get_subtree_sum(root->left);
-        int right = get_subtree_sum(root->right);
-
-        return root->val+left+right;
-    }
-
-    int averageOfSubtree(TreeNode* root) {
-
-        if(root == NULL){
-            return 0;
-        }
-
-        int count=0;
-
-        int sum = get_subtree_sum(root);
-        int total_nodes=get_total_nodes(root);
-
-        int avg=sum/total_nodes;
+        int avg = total_sum/total_count;
 
         if(avg == root->val){
-            count++;
+            res++;
         }
-        
-        int left = averageOfSubtree(root->left);
-        int right = averageOfSubtree(root->right);
 
-        return count+left+right;
+        return {total_sum,total_count};
+    }
+    int averageOfSubtree(TreeNode* root) {
+        
+        int res=0;
+
+        solve(root,res);
+        return res;
     }
 };
