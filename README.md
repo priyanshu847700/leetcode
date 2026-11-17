@@ -277,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/priyanshu847700/leetcode/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0437-path-sum-iii](https://github.com/priyanshu847700/leetcode/tree/master/0437-path-sum-iii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/priyanshu847700/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/priyanshu847700/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/priyanshu847700/leetcode/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/priyanshu847700/leetcode/tree/master/0572-subtree-of-another-tree) |
@@ -365,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/priyanshu847700/leetcode/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/priyanshu847700/leetcode/tree/master/0437-path-sum-iii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/priyanshu847700/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/priyanshu847700/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/priyanshu847700/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0623-add-one-row-to-tree](https://github.com/priyanshu847700/leetcode/tree/master/0623-add-one-row-to-tree) |
@@ -398,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0226-invert-binary-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/priyanshu847700/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/priyanshu847700/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0547-number-of-provinces](https://github.com/priyanshu847700/leetcode/tree/master/0547-number-of-provinces) |
 | [0623-add-one-row-to-tree](https://github.com/priyanshu847700/leetcode/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
@@ -432,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/priyanshu847700/leetcode/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/priyanshu847700/leetcode/tree/master/0437-path-sum-iii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/priyanshu847700/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/priyanshu847700/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/priyanshu847700/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0623-add-one-row-to-tree](https://github.com/priyanshu847700/leetcode/tree/master/0623-add-one-row-to-tree) |
@@ -490,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/priyanshu847700/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/priyanshu847700/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0349-intersection-of-two-arrays](https://github.com/priyanshu847700/leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/priyanshu847700/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/priyanshu847700/leetcode/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0938-range-sum-of-bst](https://github.com/priyanshu847700/leetcode/tree/master/0938-range-sum-of-bst) |
 | [1004-max-consecutive-ones-iii](https://github.com/priyanshu847700/leetcode/tree/master/1004-max-consecutive-ones-iii) |
