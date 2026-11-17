@@ -11,24 +11,21 @@
  */
 class Solution {
 public:
-    void traversal(TreeNode* root, int low, int high,int &ans){
-        if(root == NULL){
-            return;
-        }
-
-        traversal(root->left,low,high,ans);
-
-        if( root->val >= low && root->val <= high ){
-            ans+=root->val;
-        }
-
-        traversal(root->right,low,high,ans);
-
-    }
     int rangeSumBST(TreeNode* root, int low, int high) {
-        int ans=0;
+        if(root == NULL){
+            return 0;
+        }
 
-        traversal(root,low,high,ans);
-        return ans;
+        if( root->val >= low  && root->val <= high ){
+            return root->val + rangeSumBST(root->left,low,high) + rangeSumBST(root->right,low,high);
+        }
+
+        if(root->val < low){
+            return rangeSumBST(root->right,low,high);
+        }
+
+        // if(root->val > high)
+        return rangeSumBST(root->left,low,high);
+    
     }
 };
