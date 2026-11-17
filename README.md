@@ -287,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0814-binary-tree-pruning](https://github.com/priyanshu847700/leetcode/tree/master/0814-binary-tree-pruning) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0872-leaf-similar-trees](https://github.com/priyanshu847700/leetcode/tree/master/0872-leaf-similar-trees) |
+| [0938-range-sum-of-bst](https://github.com/priyanshu847700/leetcode/tree/master/0938-range-sum-of-bst) |
 | [0979-distribute-coins-in-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0979-distribute-coins-in-binary-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/priyanshu847700/leetcode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1110-delete-nodes-and-return-forest](https://github.com/priyanshu847700/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
@@ -373,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0814-binary-tree-pruning](https://github.com/priyanshu847700/leetcode/tree/master/0814-binary-tree-pruning) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0872-leaf-similar-trees](https://github.com/priyanshu847700/leetcode/tree/master/0872-leaf-similar-trees) |
+| [0938-range-sum-of-bst](https://github.com/priyanshu847700/leetcode/tree/master/0938-range-sum-of-bst) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [0979-distribute-coins-in-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0979-distribute-coins-in-binary-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/priyanshu847700/leetcode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
@@ -439,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0814-binary-tree-pruning](https://github.com/priyanshu847700/leetcode/tree/master/0814-binary-tree-pruning) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0872-leaf-similar-trees](https://github.com/priyanshu847700/leetcode/tree/master/0872-leaf-similar-trees) |
+| [0938-range-sum-of-bst](https://github.com/priyanshu847700/leetcode/tree/master/0938-range-sum-of-bst) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [0979-distribute-coins-in-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/0979-distribute-coins-in-binary-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/priyanshu847700/leetcode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
@@ -488,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/priyanshu847700/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0349-intersection-of-two-arrays](https://github.com/priyanshu847700/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/priyanshu847700/leetcode/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [0938-range-sum-of-bst](https://github.com/priyanshu847700/leetcode/tree/master/0938-range-sum-of-bst) |
 | [1004-max-consecutive-ones-iii](https://github.com/priyanshu847700/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/priyanshu847700/leetcode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/priyanshu847700/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
