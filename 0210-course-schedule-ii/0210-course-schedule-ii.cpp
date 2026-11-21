@@ -1,7 +1,25 @@
 class Solution {
 public:
-    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
+    bool has_cycle(vector<vector<int>> &adj,vector<bool> &visited,vector<bool> &in_recursion,stack<int> &s,int u){
+        visited[u]=true;
+        in_recursion[u]=true;
 
+        for(int v : adj[u]){
+            if(!visited[v] && has_cycle(adj,visited,in_recursion,s,v)){
+                return true;
+            }
+            if(visited[v] && in_recursion[v] == true){
+                return true;
+            }
+
+        }
+
+        in_recursion[u]=false;
+        s.push(u);
+        return false;
+    }
+    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
+        
         vector<vector<int>> adj(numCourses);
 
         for(auto p : prerequisites){
@@ -9,40 +27,23 @@ public:
         }
 
         vector<bool> visited(numCourses,false);
-        vector<int> indegree(numCourses,0);
+        vector<bool> in_recursion(numCourses,false);
 
-        for(int i=0;i<adj.size();i++){
-            for(int v : adj[i]){
-                indegree[v]++;
-            }
-        }
-
-        queue<int> q;
-        for(int i=0;i<indegree.size();i++){
-            if(indegree[i] == 0){
-                q.push(i);
+        stack<int> s;        
+        for(int i=0;i<numCourses;i++){
+            if(!visited[i] && has_cycle(adj,visited,in_recursion,s,i) == true){
+                return {};
             }
         }
 
         vector<int> ans;
-        while(!q.empty()){
-            int top=q.front();
-            q.pop();
+        while(!s.empty()){
+            int top_el=s.top();
+            s.pop();
 
-            ans.push_back(top);
-
-            for(int v : adj[top]){
-                indegree[v]--;
-
-                if(indegree[v] == 0){
-                    q.push(v);
-                }
-            }
+            ans.push_back(top_el);
         }
 
-        if(ans.size() == numCourses){
-            return ans;
-        }
-        return {};
+        return ans;
     }
 };
