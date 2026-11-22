@@ -1,30 +1,37 @@
 class Solution {
 public:
-    bool dfs(vector<vector<int>>& graph,vector<int> &colour,int u,int curr_colour){
+    bool bfs(vector<vector<int>>& graph,vector<int> &colour,int u,int curr_colour){
+
+        queue<int> q;
+        q.push(u);
         colour[u]=curr_colour;
 
-        for(int v : graph[u]){
-            if(colour[v] == colour[u]){
-                return false;
-            }
-            if(colour[v] == -1){
-                int colour_v = 1 - colour[u];
+        while(!q.empty()){
+            int top = q.front();
+            q.pop();
 
-                if(dfs(graph,colour,v,colour_v) == false){
+            for(int v : graph[top]){
+
+                if(colour[v] == colour[top]){
                     return false;
+                }
+                if(colour[v] == -1){
+                    colour[v] = 1 - colour[top];
+                    q.push(v);
                 }
             }
         }
         return true;
-    }
 
+    }
     bool isBipartite(vector<vector<int>>& graph) {
 
-        vector<int> colour(graph.size(),-1);
-        int curr_colour=1;
+        int n=graph.size();
+        vector<int> colour(n,-1);
 
-        for(int i=0;i<graph.size();i++){
-            if(colour[i] == -1 && dfs(graph,colour,i,curr_colour) == false){
+        int curr_colour = 1;     // red -> 1  |  green -> 0 
+        for(int i=0;i<n;i++){
+            if(colour[i] == -1 && bfs(graph,colour,i,curr_colour) == false){
                 return false;
             }
         }
