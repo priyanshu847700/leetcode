@@ -1,5 +1,21 @@
 class Solution {
 public:
+    bool hasCycle(vector<vector<int>>& adj,vector<bool> &visited,vector<bool> &in_recursion,int u){
+        visited[u]=true;
+        in_recursion[u]=true;
+
+        for(int v : adj[u]){
+            if(!visited[v] && hasCycle(adj,visited,in_recursion,v)){
+                return true;
+            }
+            else if(visited[v] && in_recursion[v] == true){
+                return true;
+            }
+        }
+
+        in_recursion[u]=false;
+        return false;
+    }
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
 
         vector<vector<int>> adj(numCourses);
@@ -8,39 +24,15 @@ public:
             adj[p[0]].push_back(p[1]);
         }
 
-        vector<bool> visited(adj.size(),false);
-        vector<int> indegree(adj.size(),0);
+        vector<bool> visited(numCourses,false);
+        vector<bool> in_recursion(numCourses,false); 
 
-        for(int u=0;u<adj.size();u++){
-            for(int v : adj[u]){
-                indegree[v]++;
+        for(int i=0;i<numCourses;i++){
+            if(!visited[i] && hasCycle(adj,visited,in_recursion,i) == true ){
+                return false;               
             }
         }
 
-        queue<int> q;
-        for(int i=0;i<indegree.size();i++){
-            if(indegree[i]==0){
-                q.push(i);
-            }
-        }
-
-        vector<int> topological_order;
-        while(!q.empty()){
-            int u=q.front();
-            q.pop();
-            topological_order.push_back(u);
-
-            for(int v : adj[u]){
-                indegree[v]--;
-
-                if(indegree[v] == 0){
-                    q.push(v);
-                }
-            }
-        }
-        if(topological_order.size() == numCourses){
-            return true;
-        }
-        return false;
+        return true;
     }
 };
