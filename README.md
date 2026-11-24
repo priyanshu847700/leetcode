@@ -311,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/priyanshu847700/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/priyanshu847700/leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
+| [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/priyanshu847700/leetcode/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/priyanshu847700/leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Doubly-Linked List
 |  |
@@ -430,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/priyanshu847700/leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/priyanshu847700/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1361-validate-binary-tree-nodes](https://github.com/priyanshu847700/leetcode/tree/master/1361-validate-binary-tree-nodes) |
+| [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/priyanshu847700/leetcode/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/priyanshu847700/leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Tree
 |  |
@@ -584,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0990-satisfiability-of-equality-equations](https://github.com/priyanshu847700/leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/priyanshu847700/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1361-validate-binary-tree-nodes](https://github.com/priyanshu847700/leetcode/tree/master/1361-validate-binary-tree-nodes) |
+| [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/priyanshu847700/leetcode/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/priyanshu847700/leetcode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Enumeration
 |  |
@@ -659,6 +662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0990-satisfiability-of-equality-equations](https://github.com/priyanshu847700/leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/priyanshu847700/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1361-validate-binary-tree-nodes](https://github.com/priyanshu847700/leetcode/tree/master/1361-validate-binary-tree-nodes) |
+| [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/priyanshu847700/leetcode/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Topological Sort
 |  |
 | ------- |
