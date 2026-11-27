@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/priyanshu847700/leetcode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/priyanshu847700/leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/priyanshu847700/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/priyanshu847700/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/priyanshu847700/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0014-longest-common-prefix](https://github.com/priyanshu847700/leetcode/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/priyanshu847700/leetcode/tree/master/0032-longest-valid-parentheses) |
@@ -694,4 +696,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3934-smallest-unique-subarray](https://github.com/priyanshu847700/leetcode/tree/master/3934-smallest-unique-subarray) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/priyanshu847700/leetcode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
